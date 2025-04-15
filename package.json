@@ -1,8 +1,8 @@
-{
+roku{
   "name": "helloapp",
   "version": "1.0.0",
   "description": "example node app for heroku ",
-  "main": "hello_app.js",
+  "main": "hello_heroku.js",
   "scripts": {
   "start": "node hello_app.js"
 },
