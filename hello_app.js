@@ -11,7 +11,7 @@ http.createServer(function (req, res) {
      res.write ("Success!  This app is deployed online");
      res.write("<h2>This is my hello application</h2>");
      s = "<form method='get' action='/process'>" +
-         "Enter the secret ID<input type='text' name='id'><br /><input type='submit'></form>"
+         "Enter the secret ID <input type='text' name='id'><br /><input type='submit'></form>"
      res.write(s)
      res.end()
   }
