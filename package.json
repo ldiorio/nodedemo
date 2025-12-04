@@ -1,4 +1,4 @@
-roku{
+{
   "name": "helloapp",
   "version": "1.0.0",
   "description": "example node app for heroku ",
