@@ -1,5 +1,5 @@
 var http = require('http');
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 3000;           // needed to access port on heroku
 //var port = 8080;   //uncomment to run local
 console.log("This goes to the console window");
 http.createServer(function (req, res) 
